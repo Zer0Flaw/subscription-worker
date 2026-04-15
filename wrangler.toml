@@ -1,0 +1,10 @@
+name = "subscription-worker"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://projectstack.cc,http://localhost:5173"
+
+[[kv_namespaces]]
+binding = "SUBSCRIPTIONS"
+id = "c4f8d87e3adb4bd9a860e2a347183c60"
